@@ -125,7 +125,9 @@ experimental:
 #    type: select
 #    proxies:
 #      - Shadowsocks
-#rules:
+rules:
+  - 'GEOIP,CN,DIRECT'
+  - 'MATCH,Final'
 #  - 'MATCH,DIRECT'
 
 # Clash for Windows
