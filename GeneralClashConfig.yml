@@ -127,6 +127,8 @@ experimental:
 #      - Shadowsocks
 rules:
   - 'GEOIP,CN,DIRECT'
+  - 'DOMAIN,wprydu.sbs,DIRECT'
+  - 'DOMAIN,support.tagsssubscribe.com,DIRECT'
   - 'MATCH,Final'
 #  - 'MATCH,DIRECT'
 
