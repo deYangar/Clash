@@ -1,11 +1,15 @@
-DOMAIN-SUFFIX,mypikpak.com,DIRECT
-DOMAIN-SUFFIX,mypikpak.net,DIRECT
 DOMAIN-SUFFIX,dlandroid.rcv.sandai.net,DIRECT
 DOMAIN-SUFFIX,hub5idx.v6.shub.sandai.net,DIRECT
 DOMAIN-SUFFIX,hub5pn.wap.sandai.net,DIRECT
 DOMAIN-SUFFIX,hub5pnc.sandai.net,DIRECT
 DOMAIN-SUFFIX,hub5pr.v6.phub.sandai.net,DIRECT
 DOMAIN-SUFFIX,hubciddata.sandai.net,DIRECT
+DOMAIN,access.mypikpak.com,Airport
+DOMAIN,api-drive.mypikpak.com,Airport
+DOMAIN,api-drive.mypikpak.net,Airport
+DOMAIN,user.mypikpak.com,Airport
+DOMAIN-SUFFIX,mypikpak.com,DIRECT
+DOMAIN-SUFFIX,mypikpak.net,DIRECT
 
 DOMAIN-SUFFIX,wprydu.sbs,DIRECT
 DOMAIN,support.tagsssubscribe.com,DIRECT
