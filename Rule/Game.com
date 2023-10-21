@@ -1,1 +1,0 @@
-DOMAIN,fanatical.com
