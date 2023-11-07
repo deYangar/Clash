@@ -15,5 +15,9 @@ DOMAIN-SUFFIX,disney-plus.net
 DOMAIN-SUFFIX,disneyplus.bn5x.net
 DOMAIN-SUFFIX,disneyplus.com
 DOMAIN-SUFFIX,disneyplus.com.ssl.sc.omtrdc.net
+DOMAIN-SUFFIX,hotstar-cdn.net,Disney
+DOMAIN-SUFFIX,hotstar-labs.com,Disney
+DOMAIN-SUFFIX,hotstar.com,Disney
+DOMAIN-SUFFIX,hotstarext.com,Disney
 PROCESS-NAME,com.disneyplus.datg.videoplatforms.android.abc
 PROCESS-NAME,com.disneyplus.disneyplus
