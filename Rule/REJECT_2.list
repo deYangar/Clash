@@ -1,386 +1,386 @@
-DOMAIN,08b03-2059a.api.pushwoosh.com, reject
-DOMAIN,240e-925-2-400-8000--100.volcsiriusbd.com, reject
-DOMAIN,2d672f3417a822bf6290b82001f7e3fc-adf0901f1861.cdn.forter.com, reject
-DOMAIN,2d672f3417a822bf6290b82001f7e3fc-adf0901f1861.cdn5.forter.com, reject
-DOMAIN,a1.api.bbc.co.uk, reject
-DOMAIN,a.beap.gemini.yahoo.com, reject
-DOMAIN,a.pixiv.org, reject
-DOMAIN,aa.agkn.com, reject
-DOMAIN,abtest.alibaba.com, reject
-DOMAIN,abtest-tx-beijing-01.saas.sensorsdata.cn, reject
-DOMAIN,acsbap.com, reject
-DOMAIN,ad-delivery.net, reject
-DOMAIN,ad.bczcdn.com, reject
-DOMAIN,ad.cyapi.cn, reject
-DOMAIN,ad.turn.com, reject
-DOMAIN,ad.wsod.com, reject
-DOMAIN,adashbc.ut.taobao.com, reject
-DOMAIN,adashx.m.taobao.com, reject
-DOMAIN,adashx.ut.ele.me, reject
-DOMAIN,adashx.ut.hzshudian.com, reject
-DOMAIN,adashx.ut.youku.com, reject
-DOMAIN,adc-ad-assets.adtilt.com, reject
-DOMAIN,adf0901f1861.cdn4.forter.com, reject
-DOMAIN,adobemobiledev.data.adobedc.net, reject
-DOMAIN,adproxy.autohome.com.cn, reject
-DOMAIN,ads-api.twitter.com, reject
-DOMAIN,ads.adfox.ru, reject
-DOMAIN,ads.pubmatic.com, reject
-DOMAIN,adserver.adtech.advertising.com, reject
-DOMAIN,adservice.sigmob.cn, reject
-DOMAIN,adservice.google.com, reject
-DOMAIN,adservice.google.ru, reject
-DOMAIN,adtag.sphdigital.com, reject
-DOMAIN,advertise.baicizhan.com, reject
-DOMAIN,advertise.baicizhan.org, reject
-DOMAIN,alb.reddit.com, reject
-DOMAIN,analytics.cloud.coveo.com, reject
-DOMAIN,analytics.slashdotmedia.com, reject
-DOMAIN,analytics.twitter.com, reject
-DOMAIN,analytics.umetrip.com, reject
-DOMAIN,api.mixpanel.com, reject
-DOMAIN,api.permutive.com, reject
-DOMAIN,api.sprig.com, reject
-DOMAIN,api-access.pangolin-sdk-toutiao.com, reject
-DOMAIN,api-access.pangolin-sdk-toutiao-b.com, reject
-DOMAIN,api-ad.kajicam.com, reject
-DOMAIN,api-c.dutils.com, reject
-DOMAIN,api-eu.mixpanel.com, reject
-DOMAIN,api-fc.dutils.com, reject
-DOMAIN,api.statsig.com, reject
-DOMAIN,apis.alenable.com, reject
-DOMAIN,app.adjust.com, reject
-DOMAIN,app.adjust.net.in, reject
-DOMAIN,app.adjust.world, reject
-DOMAIN,app-monitor.ele.me, reject
-DOMAIN,applog.uc.cn, reject
-DOMAIN,appsrv.display.io, reject
-DOMAIN,app-30330ebb9cf67052.mobileapi.usebutton.com, reject
-DOMAIN,app-alpha.bytedance.net, reject
-DOMAIN,app-analytics-v2.snapchat.com, reject
-DOMAIN,app-measurement.com, reject
-DOMAIN,assets.prod.leanplum.com, reject
-DOMAIN,beacon.shazam.com, reject
-DOMAIN,beacon.tingyun.com, reject
-DOMAIN,bh.contextweb.com, reject
-DOMAIN,books-analytics-events.apple.com, reject
-DOMAIN,btloader.com, reject
-DOMAIN,browser.events.data.msn.com, reject
-DOMAIN,b-gtc.gepush.com, reject
-DOMAIN,b1t-nydc1.zemanta.com, reject
-DOMAIN,b1sync.zemanta.com, reject
-DOMAIN,c.bing.com, reject
-DOMAIN,c.msn.com, reject
-DOMAIN,c.office.com, reject
-DOMAIN,c1.adform.net, reject
-DOMAIN,c2shb.ssp.yahoo.com, reject
-DOMAIN,cdn.acsbapp.com, reject
-DOMAIN,cdn.confiant-integrations.net, reject
-DOMAIN,cdn.mobilefuse.com, reject
-DOMAIN,cdn.segment.com, reject
-DOMAIN,cdn.sophi.io, reject
-DOMAIN,cdn.tinypass.com, reject
-DOMAIN,cdn.taboola.com, reject
-DOMAIN,cdn.viglink.com, reject
-DOMAIN,cdn.wwads.cn, reject
-DOMAIN,cdn2.inner-active.mobi, reject
-DOMAIN,cdn-settings.appsflyersdk.com, reject
-DOMAIN,cdp.cloud.unity3d.com, reject
-DOMAIN,cf.prd.media.h264.io, reject
-DOMAIN,click.dangdang.com, reject
-DOMAIN,click.redditmail.com, reject
-DOMAIN,cm.mgid.com, reject
-DOMAIN,cm.rtbsystem.com, reject
-DOMAIN,cms.quantserve.com, reject
-DOMAIN,cnam4c-skadsdkless.appsflyersdk.com, reject
-DOMAIN,co.dewrain.life, reject
-DOMAIN,co.vaicore.xyz, reject
-DOMAIN,code.yengo.com, reject
-DOMAIN,collector.sophi.io, reject
-DOMAIN,comet.yahoo.com, reject
-DOMAIN,counter.yadro.ru, reject
-DOMAIN,conduit.redfast.com, reject
-DOMAIN,conf.hpplay.cn, reject
-DOMAIN,control.kochava.com, reject
-DOMAIN,crashlyticsreports-pa.googleapis.com, reject
-DOMAIN,creativecdn.com, reject
-DOMAIN,cu-cn-north00002.gala.convection.cn, reject
-DOMAIN,dashboard.tinypass.com, reject
-DOMAIN,data.flurry.com, reject
-DOMAIN,dc.services.visualstudio.com, reject
-DOMAIN,dcf.espn.com, reject
-DOMAIN,device-metrics-us.amazon.com, reject
-DOMAIN,device-metrics-us-2.amazon.com, reject
-DOMAIN,dig.bdurl.net, reject
-DOMAIN,dig.zjurl.cn, reject
-DOMAIN,dis.criteo.com, reject
-DOMAIN,disney.demdex.net, reject
-DOMAIN,dit.whatsapp.net, reject
-DOMAIN,dl-s.tripcdn.cn, reject
-DOMAIN,dsb.yahoo.co.jp, reject
-DOMAIN,dpm.demdex.net , reject
-DOMAIN,dynamic.zol.com.cn, reject
-DOMAIN,ef-dongfeng.tanx.com, reject
-DOMAIN,elb.the-ozone-project.com, reject
-DOMAIN,encrypted-tbn1.gstatic.com, reject
-DOMAIN,entitlements.jwplayer.com, reject
-DOMAIN,events.mz.unity3d.com, reject
-DOMAIN,fc.yahoo.com, reject
-DOMAIN,firebase-settings.crashlytics.com, reject
-DOMAIN,firebaselogging-pa.googleapis.com, reject
-DOMAIN,fp-it.fengkongcloud.com, reject
-DOMAIN,freestar-io.videoplayerhub.com, reject
-DOMAIN,geo.yahoo.com, reject
-DOMAIN,h-adashx.ut.ele.me, reject
-DOMAIN,h-adashx.ut.cainiao.com, reject
-DOMAIN,h-adashx.ut.hzshudian.com, reject
-DOMAIN,h-adashx.ut.taobao.com, reject
-DOMAIN,httpdns.bcelive.com, reject
-DOMAIN,httpdns.kwd.inkuai.com, reject
-DOMAIN,httpdns.yunxindns.com, reject
-DOMAIN,hub5p.mypikpak.com, reject
-DOMAIN,hub5pnc.mypikpak.com, reject
-DOMAIN,i2-vymzjliplcagmhbrooitrwuqbopdsg.init.cedexis-radar.net, reject
-DOMAIN,ib.adnxs.com, reject
-DOMAIN,ib.snssdk.com, reject
-DOMAIN,ice.360yield.com, reject
-DOMAIN,id.cxense.com, reject
-DOMAIN,id.geistm.com, reject
-DOMAIN,id5-sync.com, reject
-DOMAIN,ifs.tanx.com, reject
-DOMAIN,image8.pubmatic.com, reject
-DOMAIN,imasdk.googleapis.com, reject
-DOMAIN,imdns.hpplay.cn, reject
-DOMAIN,info.sony-semicon.com, reject
-DOMAIN,int.dewrain.site, reject
-DOMAIN,int.akisinn.info, reject
-DOMAIN,int.akisinn.site , reject
-DOMAIN,int.dewrain.world, reject
-DOMAIN,int.vaicore.site, reject
-DOMAIN,int.vaicore.store, reject
-DOMAIN,int.vaicore.xyz, reject
-DOMAIN,ipgeo.wlvpn.com, reject
-DOMAIN,is.snssdk.com, reject
-DOMAIN,jnn-pa.googleapis.com, reject
-DOMAIN,js.monitor.azure.com, reject
-DOMAIN,js-agent.newrelic.com, reject
-DOMAIN,kuaishou.httpdns.pro, reject
-DOMAIN,log.b612kaji.com, reject
-DOMAIN,logs.chelaile.net.cn, reject
-DOMAIN,log.umsns.com, reject
-DOMAIN,logx.optimizely.com, reject
-DOMAIN,lptag.liveperson.net, reject
-DOMAIN,m.api.forter.com, reject
-DOMAIN,mc.yandex.ru, reject
-DOMAIN,media.trafficjunky.com, reject
-DOMAIN,metrics.icloud.com, reject
-DOMAIN,mobileconfig.sascdn.com, reject
-DOMAIN,mobiletelemetry.ebay.com, reject
-DOMAIN,mobilelog.upqzfile.com, reject
-DOMAIN,mon.isnssdk.com, reject
-DOMAIN,mon.snssdk.com, reject
-DOMAIN,mparticle.weather.com, reject
-DOMAIN,msg.umengcloud.com, reject
-DOMAIN,mtrace.qq.com, reject
-DOMAIN,nbcstreaming.hb-api.omtrdc.net, reject
-DOMAIN,nbcstreaming.sc.omtrdc.net, reject
-DOMAIN,networksdk.ssacdn.com, reject
-DOMAIN,ns.zdbb.net, reject
-DOMAIN,nt2.ele.me, reject
-DOMAIN,ocean.sankuai.com, reject
-DOMAIN,p1.pstatp.com, reject
-DOMAIN,p9.pstatp.com, reject
-DOMAIN,pagead2.googlesyndication.com, reject
-DOMAIN,pangolin.snssdk.com, reject
-DOMAIN,personalization.bloomberg.com, reject
-DOMAIN,ping.chartbeat.net, reject
-DOMAIN,pixel.adsafeprotected.com, reject
-DOMAIN,pixel.zprk.io, reject
-DOMAIN,pixel-us-east.rubiconproject.com, reject
-DOMAIN,pixoctopus.pixnet.net, reject
-DOMAIN,pm-gateway.supersonicads.com, reject
-DOMAIN,pok.mintegral.net, reject
-DOMAIN,pp.lp4.io, reject
-DOMAIN,pr-bh.ybp.yahoo.com, reject
-DOMAIN,prebid.the-ozone-project.com, reject
-DOMAIN,px.effirst.com, reject
-DOMAIN,px.moatads.com, reject
-DOMAIN,quicktracking-api.macaupass.com, reject
-DOMAIN,qzs.gdtimg.com, reject
-DOMAIN,rili.callmekeji.com, reject
-DOMAIN,rp.hpplay.cn, reject
-DOMAIN,rt.applovin.com, reject
-DOMAIN,s3t3d2y7.ackcdn.net, reject
-DOMAIN,sb.scorecardresearch.com, reject
-DOMAIN,scaredsnakes.com, reject
-DOMAIN,sdk.fra-01.braze.eu, reject
-DOMAIN,sdk.iad-03.braze.com, reject
-DOMAIN,sdk.open.talk.gepush.com, reject
-DOMAIN,sdk.open.talk.igexin.com, reject
-DOMAIN,sdk.ssp.admobile.top, reject
-DOMAIN,sdkapi.netmera.com, reject
-DOMAIN,sdk-events.inner-active.mobi, reject
-DOMAIN,securemetrics.apple.com.cn, reject
-DOMAIN,segment-data-us-east.zqtk.net, reject
-DOMAIN,seoab.io, reject
-DOMAIN,services.brightline.tv, reject
-DOMAIN,sessions.bugsnag.com, reject
-DOMAIN,shftr.adnxs.net, reject
-DOMAIN,sis.jpush.io, reject
-DOMAIN,skadnetworks.fyber.com, reject
-DOMAIN,smetrics.aem.playstation.com, reject
-DOMAIN,snap.licdn.com, reject
-DOMAIN,sofire.baidu.com, reject
-DOMAIN,sqdd.myapp.com, reject
-DOMAIN,srtb.msn.com, reject
-DOMAIN,ssbsync.smartadserver.com, reject
-DOMAIN,ssdkauth.hpplay.cn, reject
-DOMAIN,st.pubmatic.com, reject
-DOMAIN,stas.outbrain.com, reject
-DOMAIN,static.addtoany.com, reject
-DOMAIN,static.adsafeprotected.com, reject
-DOMAIN,static.ares.ctripcorp.com, reject
-DOMAIN,static.bshare.cn, reject
-DOMAIN,static.scroll.com, reject
-DOMAIN,stats.appsflyer.com, reject
-DOMAIN,stats.fifthstarlabs.io, reject
-DOMAIN,statusf.digitalcertvalidation.com, reject
-DOMAIN,stocks-analytics-events.apple.com, reject
-DOMAIN,stun.ideasip.com , reject
-DOMAIN,stun.stunprotocol.org , reject
-DOMAIN,stun.voiparound.com, reject
-DOMAIN,sync.crwdcntrl.net, reject
-DOMAIN,sync.outbrain.com, reject
-DOMAIN,sync-jp.im-apps.net, reject
-DOMAIN,sysdk.cl2009.com, reject
-DOMAIN,t.appsflyer.com, reject
-DOMAIN,tags.tiqcdn.com, reject
-DOMAIN,tcbox.baidu.com, reject
-DOMAIN,tdsdk.xdrig.com, reject
-DOMAIN,tdsdk-ip6.xdrig.com, reject
-DOMAIN,telemetry-in.battle.net, reject
-DOMAIN,test.wemiquan.com, reject
-DOMAIN,tms.fmm.io, reject
-DOMAIN,tobapplog.ctobsnssdk.com, reject
-DOMAIN,toblog.ctobsnssdk.com, reject
-DOMAIN,tosv.byted.org, reject
-DOMAIN,tpc.googlesyndication.com, reject
-DOMAIN,tr.snapchat.com, reject
-DOMAIN,tracker.nbcuas.com, reject
-DOMAIN,turbo.adsbynimbus.com, reject
-DOMAIN,ubt-sin.tripcdn.com, reject
-DOMAIN,unagi-na.amazon.com, reject
-DOMAIN,video-ads-module.ad-tech.nbcuni.com, reject
-DOMAIN,visitor.omnitagjs.com, reject
-DOMAIN,w3-reporting.reddit.com, reject
-DOMAIN,w3-reporting-nel.reddit.com, reject
-DOMAIN,weather-analytics-events.apple.com, reject
-DOMAIN,wkrd.tingyun.com, reject
-DOMAIN,ws.tapjoyads.com, reject
-DOMAIN,wwads.cn, reject
-DOMAIN,www.clarity.ms, reject
-DOMAIN,www.googletagmanager.com, reject
-DOMAIN,www.lightboxcdn.com, reject
-DOMAIN,www.qchannel01.cn, reject
-DOMAIN,www.sinawap.com, reject
-DOMAIN,www.tns-counter.ru, reject
-DOMAIN,x.bidswitch.net, reject
-DOMAIN,yun.duiba.com.cn, reject
-DOMAIN,z.moatads.com, reject
-DOMAIN,zem.outbrainimg.com, reject
-DOMAIN,zgsdk.zhugeio.com, reject
-DOMAIN,zhihu-web-analytics.zhihu.com, reject
+DOMAIN,08b03-2059a.api.pushwoosh.com
+DOMAIN,240e-925-2-400-8000--100.volcsiriusbd.com
+DOMAIN,2d672f3417a822bf6290b82001f7e3fc-adf0901f1861.cdn.forter.com
+DOMAIN,2d672f3417a822bf6290b82001f7e3fc-adf0901f1861.cdn5.forter.com
+DOMAIN,a1.api.bbc.co.uk
+DOMAIN,a.beap.gemini.yahoo.com
+DOMAIN,a.pixiv.org
+DOMAIN,aa.agkn.com
+DOMAIN,abtest.alibaba.com
+DOMAIN,abtest-tx-beijing-01.saas.sensorsdata.cn
+DOMAIN,acsbap.com
+DOMAIN,ad-delivery.net
+DOMAIN,ad.bczcdn.com
+DOMAIN,ad.cyapi.cn
+DOMAIN,ad.turn.com
+DOMAIN,ad.wsod.com
+DOMAIN,adashbc.ut.taobao.com
+DOMAIN,adashx.m.taobao.com
+DOMAIN,adashx.ut.ele.me
+DOMAIN,adashx.ut.hzshudian.com
+DOMAIN,adashx.ut.youku.com
+DOMAIN,adc-ad-assets.adtilt.com
+DOMAIN,adf0901f1861.cdn4.forter.com
+DOMAIN,adobemobiledev.data.adobedc.net
+DOMAIN,adproxy.autohome.com.cn
+DOMAIN,ads-api.twitter.com
+DOMAIN,ads.adfox.ru
+DOMAIN,ads.pubmatic.com
+DOMAIN,adserver.adtech.advertising.com
+DOMAIN,adservice.sigmob.cn
+DOMAIN,adservice.google.com
+DOMAIN,adservice.google.ru
+DOMAIN,adtag.sphdigital.com
+DOMAIN,advertise.baicizhan.com
+DOMAIN,advertise.baicizhan.org
+DOMAIN,alb.reddit.com
+DOMAIN,analytics.cloud.coveo.com
+DOMAIN,analytics.slashdotmedia.com
+DOMAIN,analytics.twitter.com
+DOMAIN,analytics.umetrip.com
+DOMAIN,api.mixpanel.com
+DOMAIN,api.permutive.com
+DOMAIN,api.sprig.com
+DOMAIN,api-access.pangolin-sdk-toutiao.com
+DOMAIN,api-access.pangolin-sdk-toutiao-b.com
+DOMAIN,api-ad.kajicam.com
+DOMAIN,api-c.dutils.com
+DOMAIN,api-eu.mixpanel.com
+DOMAIN,api-fc.dutils.com
+DOMAIN,api.statsig.com
+DOMAIN,apis.alenable.com
+DOMAIN,app.adjust.com
+DOMAIN,app.adjust.net.in
+DOMAIN,app.adjust.world
+DOMAIN,app-monitor.ele.me
+DOMAIN,applog.uc.cn
+DOMAIN,appsrv.display.io
+DOMAIN,app-30330ebb9cf67052.mobileapi.usebutton.com
+DOMAIN,app-alpha.bytedance.net
+DOMAIN,app-analytics-v2.snapchat.com
+DOMAIN,app-measurement.com
+DOMAIN,assets.prod.leanplum.com
+DOMAIN,beacon.shazam.com
+DOMAIN,beacon.tingyun.com
+DOMAIN,bh.contextweb.com
+DOMAIN,books-analytics-events.apple.com
+DOMAIN,btloader.com
+DOMAIN,browser.events.data.msn.com
+DOMAIN,b-gtc.gepush.com
+DOMAIN,b1t-nydc1.zemanta.com
+DOMAIN,b1sync.zemanta.com
+DOMAIN,c.bing.com
+DOMAIN,c.msn.com
+DOMAIN,c.office.com
+DOMAIN,c1.adform.net
+DOMAIN,c2shb.ssp.yahoo.com
+DOMAIN,cdn.acsbapp.com
+DOMAIN,cdn.confiant-integrations.net
+DOMAIN,cdn.mobilefuse.com
+DOMAIN,cdn.segment.com
+DOMAIN,cdn.sophi.io
+DOMAIN,cdn.tinypass.com
+DOMAIN,cdn.taboola.com
+DOMAIN,cdn.viglink.com
+DOMAIN,cdn.wwads.cn
+DOMAIN,cdn2.inner-active.mobi
+DOMAIN,cdn-settings.appsflyersdk.com
+DOMAIN,cdp.cloud.unity3d.com
+DOMAIN,cf.prd.media.h264.io
+DOMAIN,click.dangdang.com
+DOMAIN,click.redditmail.com
+DOMAIN,cm.mgid.com
+DOMAIN,cm.rtbsystem.com
+DOMAIN,cms.quantserve.com
+DOMAIN,cnam4c-skadsdkless.appsflyersdk.com
+DOMAIN,co.dewrain.life
+DOMAIN,co.vaicore.xyz
+DOMAIN,code.yengo.com
+DOMAIN,collector.sophi.io
+DOMAIN,comet.yahoo.com
+DOMAIN,counter.yadro.ru
+DOMAIN,conduit.redfast.com
+DOMAIN,conf.hpplay.cn
+DOMAIN,control.kochava.com
+DOMAIN,crashlyticsreports-pa.googleapis.com
+DOMAIN,creativecdn.com
+DOMAIN,cu-cn-north00002.gala.convection.cn
+DOMAIN,dashboard.tinypass.com
+DOMAIN,data.flurry.com
+DOMAIN,dc.services.visualstudio.com
+DOMAIN,dcf.espn.com
+DOMAIN,device-metrics-us.amazon.com
+DOMAIN,device-metrics-us-2.amazon.com
+DOMAIN,dig.bdurl.net
+DOMAIN,dig.zjurl.cn
+DOMAIN,dis.criteo.com
+DOMAIN,disney.demdex.net
+DOMAIN,dit.whatsapp.net
+DOMAIN,dl-s.tripcdn.cn
+DOMAIN,dsb.yahoo.co.jp
+DOMAIN,dpm.demdex.net 
+DOMAIN,dynamic.zol.com.cn
+DOMAIN,ef-dongfeng.tanx.com
+DOMAIN,elb.the-ozone-project.com
+DOMAIN,encrypted-tbn1.gstatic.com
+DOMAIN,entitlements.jwplayer.com
+DOMAIN,events.mz.unity3d.com
+DOMAIN,fc.yahoo.com
+DOMAIN,firebase-settings.crashlytics.com
+DOMAIN,firebaselogging-pa.googleapis.com
+DOMAIN,fp-it.fengkongcloud.com
+DOMAIN,freestar-io.videoplayerhub.com
+DOMAIN,geo.yahoo.com
+DOMAIN,h-adashx.ut.ele.me
+DOMAIN,h-adashx.ut.cainiao.com
+DOMAIN,h-adashx.ut.hzshudian.com
+DOMAIN,h-adashx.ut.taobao.com
+DOMAIN,httpdns.bcelive.com
+DOMAIN,httpdns.kwd.inkuai.com
+DOMAIN,httpdns.yunxindns.com
+DOMAIN,hub5p.mypikpak.com
+DOMAIN,hub5pnc.mypikpak.com
+DOMAIN,i2-vymzjliplcagmhbrooitrwuqbopdsg.init.cedexis-radar.net
+DOMAIN,ib.adnxs.com
+DOMAIN,ib.snssdk.com
+DOMAIN,ice.360yield.com
+DOMAIN,id.cxense.com
+DOMAIN,id.geistm.com
+DOMAIN,id5-sync.com
+DOMAIN,ifs.tanx.com
+DOMAIN,image8.pubmatic.com
+DOMAIN,imasdk.googleapis.com
+DOMAIN,imdns.hpplay.cn
+DOMAIN,info.sony-semicon.com
+DOMAIN,int.dewrain.site
+DOMAIN,int.akisinn.info
+DOMAIN,int.akisinn.site 
+DOMAIN,int.dewrain.world
+DOMAIN,int.vaicore.site
+DOMAIN,int.vaicore.store
+DOMAIN,int.vaicore.xyz
+DOMAIN,ipgeo.wlvpn.com
+DOMAIN,is.snssdk.com
+DOMAIN,jnn-pa.googleapis.com
+DOMAIN,js.monitor.azure.com
+DOMAIN,js-agent.newrelic.com
+DOMAIN,kuaishou.httpdns.pro
+DOMAIN,log.b612kaji.com
+DOMAIN,logs.chelaile.net.cn
+DOMAIN,log.umsns.com
+DOMAIN,logx.optimizely.com
+DOMAIN,lptag.liveperson.net
+DOMAIN,m.api.forter.com
+DOMAIN,mc.yandex.ru
+DOMAIN,media.trafficjunky.com
+DOMAIN,metrics.icloud.com
+DOMAIN,mobileconfig.sascdn.com
+DOMAIN,mobiletelemetry.ebay.com
+DOMAIN,mobilelog.upqzfile.com
+DOMAIN,mon.isnssdk.com
+DOMAIN,mon.snssdk.com
+DOMAIN,mparticle.weather.com
+DOMAIN,msg.umengcloud.com
+DOMAIN,mtrace.qq.com
+DOMAIN,nbcstreaming.hb-api.omtrdc.net
+DOMAIN,nbcstreaming.sc.omtrdc.net
+DOMAIN,networksdk.ssacdn.com
+DOMAIN,ns.zdbb.net
+DOMAIN,nt2.ele.me
+DOMAIN,ocean.sankuai.com
+DOMAIN,p1.pstatp.com
+DOMAIN,p9.pstatp.com
+DOMAIN,pagead2.googlesyndication.com
+DOMAIN,pangolin.snssdk.com
+DOMAIN,personalization.bloomberg.com
+DOMAIN,ping.chartbeat.net
+DOMAIN,pixel.adsafeprotected.com
+DOMAIN,pixel.zprk.io
+DOMAIN,pixel-us-east.rubiconproject.com
+DOMAIN,pixoctopus.pixnet.net
+DOMAIN,pm-gateway.supersonicads.com
+DOMAIN,pok.mintegral.net
+DOMAIN,pp.lp4.io
+DOMAIN,pr-bh.ybp.yahoo.com
+DOMAIN,prebid.the-ozone-project.com
+DOMAIN,px.effirst.com
+DOMAIN,px.moatads.com
+DOMAIN,quicktracking-api.macaupass.com
+DOMAIN,qzs.gdtimg.com
+DOMAIN,rili.callmekeji.com
+DOMAIN,rp.hpplay.cn
+DOMAIN,rt.applovin.com
+DOMAIN,s3t3d2y7.ackcdn.net
+DOMAIN,sb.scorecardresearch.com
+DOMAIN,scaredsnakes.com
+DOMAIN,sdk.fra-01.braze.eu
+DOMAIN,sdk.iad-03.braze.com
+DOMAIN,sdk.open.talk.gepush.com
+DOMAIN,sdk.open.talk.igexin.com
+DOMAIN,sdk.ssp.admobile.top
+DOMAIN,sdkapi.netmera.com
+DOMAIN,sdk-events.inner-active.mobi
+DOMAIN,securemetrics.apple.com.cn
+DOMAIN,segment-data-us-east.zqtk.net
+DOMAIN,seoab.io
+DOMAIN,services.brightline.tv
+DOMAIN,sessions.bugsnag.com
+DOMAIN,shftr.adnxs.net
+DOMAIN,sis.jpush.io
+DOMAIN,skadnetworks.fyber.com
+DOMAIN,smetrics.aem.playstation.com
+DOMAIN,snap.licdn.com
+DOMAIN,sofire.baidu.com
+DOMAIN,sqdd.myapp.com
+DOMAIN,srtb.msn.com
+DOMAIN,ssbsync.smartadserver.com
+DOMAIN,ssdkauth.hpplay.cn
+DOMAIN,st.pubmatic.com
+DOMAIN,stas.outbrain.com
+DOMAIN,static.addtoany.com
+DOMAIN,static.adsafeprotected.com
+DOMAIN,static.ares.ctripcorp.com
+DOMAIN,static.bshare.cn
+DOMAIN,static.scroll.com
+DOMAIN,stats.appsflyer.com
+DOMAIN,stats.fifthstarlabs.io
+DOMAIN,statusf.digitalcertvalidation.com
+DOMAIN,stocks-analytics-events.apple.com
+DOMAIN,stun.ideasip.com 
+DOMAIN,stun.stunprotocol.org 
+DOMAIN,stun.voiparound.com
+DOMAIN,sync.crwdcntrl.net
+DOMAIN,sync.outbrain.com
+DOMAIN,sync-jp.im-apps.net
+DOMAIN,sysdk.cl2009.com
+DOMAIN,t.appsflyer.com
+DOMAIN,tags.tiqcdn.com
+DOMAIN,tcbox.baidu.com
+DOMAIN,tdsdk.xdrig.com
+DOMAIN,tdsdk-ip6.xdrig.com
+DOMAIN,telemetry-in.battle.net
+DOMAIN,test.wemiquan.com
+DOMAIN,tms.fmm.io
+DOMAIN,tobapplog.ctobsnssdk.com
+DOMAIN,toblog.ctobsnssdk.com
+DOMAIN,tosv.byted.org
+DOMAIN,tpc.googlesyndication.com
+DOMAIN,tr.snapchat.com
+DOMAIN,tracker.nbcuas.com
+DOMAIN,turbo.adsbynimbus.com
+DOMAIN,ubt-sin.tripcdn.com
+DOMAIN,unagi-na.amazon.com
+DOMAIN,video-ads-module.ad-tech.nbcuni.com
+DOMAIN,visitor.omnitagjs.com
+DOMAIN,w3-reporting.reddit.com
+DOMAIN,w3-reporting-nel.reddit.com
+DOMAIN,weather-analytics-events.apple.com
+DOMAIN,wkrd.tingyun.com
+DOMAIN,ws.tapjoyads.com
+DOMAIN,wwads.cn
+DOMAIN,www.clarity.ms
+DOMAIN,www.googletagmanager.com
+DOMAIN,www.lightboxcdn.com
+DOMAIN,www.qchannel01.cn
+DOMAIN,www.sinawap.com
+DOMAIN,www.tns-counter.ru
+DOMAIN,x.bidswitch.net
+DOMAIN,yun.duiba.com.cn
+DOMAIN,z.moatads.com
+DOMAIN,zem.outbrainimg.com
+DOMAIN,zgsdk.zhugeio.com
+DOMAIN,zhihu-web-analytics.zhihu.com
 
-host-suffix, 8le8le.com, reject
-host-suffix, m1.ad.10010.com, reject
-host-suffix, ad.xiaomi.com, reject
-host-suffix, adcolony.com, reject
-host-suffix, adkwai.com, reject
-host-suffix, ads.linkedin.com, reject
-host-suffix, ads-pixiv.net, reject
-host-suffix, adsrvr.org, reject
-host-suffix, airpr.com, reject
-host-suffix, adxvip.com, reject
-host-suffix, amazon-adsystem.com, reject
-host-suffix, analytics.yahoo.com, reject
-host-suffix, anythinktech.com, reject
-host-suffix, appsflyer.com, reject
-host-suffix, beizi.biz, reject
-host-suffix, branch.io, reject
-host-suffix, browser-intake-datadoghq.com, reject
-host-suffix, cedexis.com, reject
-host-suffix, chartbeat.com, reject
-host-suffix, cnzz.com, reject
-host-suffix, cookielaw.org, reject
-host-suffix, cpatrk.net, reject
-host-suffix, cws.conviva.com, reject
-host-suffix, doubleclick.net, reject
-host-suffix, everestop.io, reject
-host-suffix, events.brightline.tv, reject
-host-suffix, fivecdm.com, reject
-host-suffix, getui.net, reject
-host-suffix, google-analytics.com, reject
-host-suffix, hotjar.com, reject
-host-suffix, hotjar.io, reject
-host-suffix, hs-analytics.net, reject
-host-suffix, hubcloud.com.cn, reject
-host-suffix, inmobi.com, reject
-host-suffix, ipinyou.com, reject
-host-suffix, kissmetrics.com, reject
-host-suffix, liadm.com, reject
-host-suffix, litix.io, reject
-host-suffix, jdqd.jd.com, reject
-host-suffix, jpush.cn, reject
-host-suffix, miaozhen.com, reject
-host-suffix, mmstat.com, reject
-host-suffix, mparticle.com, reject
-host-suffix, mob.com, reject
-host-suffix, mutinycdn.com, reject
-host-suffix, n0909.com, reject
-host-suffix, nexac.com, reject
-host-suffix, nr-data.net, reject
-host-suffix, optimizely.com, reject
-host-suffix, outbrain.com, reject
-host-suffix, pardot.com, reject
-host-suffix, parrable.com, reject
-host-suffix, petametrics.com, reject
-host-suffix, predic.io, reject
-host-suffix, pub.network, reject
-host-suffix, px-cloud.net, reject
-host-suffix, s-onetag.com, reject
-host-suffix, sandai.net, reject
-host-suffix, seewhy.com, reject
-host-suffix, segment.io, reject
-host-suffix, segmentify.com, reject
-host-suffix, sentiance.com, reject
-host-suffix, serverbid.com, reject
-host-suffix, sessionm.com, reject
-host-suffix, sharethis.com, reject
-host-suffix, shouji.sougou.com, reject
-host-suffix, siteintercept.qualtrics.com, reject
-host-suffix, smartlook.com, reject
-host-suffix, socdm.com, reject
-host-suffix, socialannex.com, reject
-host-suffix, socialbakers.com, reject
-host-suffix, sociaplus.com, reject
-host-suffix, stackadapt.com, reject
-host-suffix, stathat.com, reject
-host-suffix, stats.paypal.com, reject
-host-suffix, stats-locations.com, reject
-host-suffix, tagcommander.com, reject
-host-suffix, tailtarget.com, reject
-host-suffix, tapad.com, reject
-host-suffix, tapfiliate.com, reject
-host-suffix, tapinfluence.com, reject
-host-suffix, tapstream.com, reject
-host-suffix, tend.io, reject
-host-suffix, trackingio.com, reject
-host-suffix, tru.am, reject
-host-suffix, unityads.unity.cn, reject
-host-suffix, unityads.unity3d.com, reject
-host-suffix, vungle.com, reject
-host-suffix, woopra.com, reject
-host-suffix, wootric.com, reject
-host-suffix, wowanalytics.co.uk, reject
-host-suffix, zeus.top, reject
-host-suffix, zoomanalytics.co, reject
+host-suffix, 8le8le.com
+host-suffix, m1.ad.10010.com
+host-suffix, ad.xiaomi.com
+host-suffix, adcolony.com
+host-suffix, adkwai.com
+host-suffix, ads.linkedin.com
+host-suffix, ads-pixiv.net
+host-suffix, adsrvr.org
+host-suffix, airpr.com
+host-suffix, adxvip.com
+host-suffix, amazon-adsystem.com
+host-suffix, analytics.yahoo.com
+host-suffix, anythinktech.com
+host-suffix, appsflyer.com
+host-suffix, beizi.biz
+host-suffix, branch.io
+host-suffix, browser-intake-datadoghq.com
+host-suffix, cedexis.com
+host-suffix, chartbeat.com
+host-suffix, cnzz.com
+host-suffix, cookielaw.org
+host-suffix, cpatrk.net
+host-suffix, cws.conviva.com
+host-suffix, doubleclick.net
+host-suffix, everestop.io
+host-suffix, events.brightline.tv
+host-suffix, fivecdm.com
+host-suffix, getui.net
+host-suffix, google-analytics.com
+host-suffix, hotjar.com
+host-suffix, hotjar.io
+host-suffix, hs-analytics.net
+host-suffix, hubcloud.com.cn
+host-suffix, inmobi.com
+host-suffix, ipinyou.com
+host-suffix, kissmetrics.com
+host-suffix, liadm.com
+host-suffix, litix.io
+host-suffix, jdqd.jd.com
+host-suffix, jpush.cn
+host-suffix, miaozhen.com
+host-suffix, mmstat.com
+host-suffix, mparticle.com
+host-suffix, mob.com
+host-suffix, mutinycdn.com
+host-suffix, n0909.com
+host-suffix, nexac.com
+host-suffix, nr-data.net
+host-suffix, optimizely.com
+host-suffix, outbrain.com
+host-suffix, pardot.com
+host-suffix, parrable.com
+host-suffix, petametrics.com
+host-suffix, predic.io
+host-suffix, pub.network
+host-suffix, px-cloud.net
+host-suffix, s-onetag.com
+host-suffix, sandai.net
+host-suffix, seewhy.com
+host-suffix, segment.io
+host-suffix, segmentify.com
+host-suffix, sentiance.com
+host-suffix, serverbid.com
+host-suffix, sessionm.com
+host-suffix, sharethis.com
+host-suffix, shouji.sougou.com
+host-suffix, siteintercept.qualtrics.com
+host-suffix, smartlook.com
+host-suffix, socdm.com
+host-suffix, socialannex.com
+host-suffix, socialbakers.com
+host-suffix, sociaplus.com
+host-suffix, stackadapt.com
+host-suffix, stathat.com
+host-suffix, stats.paypal.com
+host-suffix, stats-locations.com
+host-suffix, tagcommander.com
+host-suffix, tailtarget.com
+host-suffix, tapad.com
+host-suffix, tapfiliate.com
+host-suffix, tapinfluence.com
+host-suffix, tapstream.com
+host-suffix, tend.io
+host-suffix, trackingio.com
+host-suffix, tru.am
+host-suffix, unityads.unity.cn
+host-suffix, unityads.unity3d.com
+host-suffix, vungle.com
+host-suffix, woopra.com
+host-suffix, wootric.com
+host-suffix, wowanalytics.co.uk
+host-suffix, zeus.top
+host-suffix, zoomanalytics.co
