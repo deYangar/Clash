@@ -2,3 +2,4 @@ DOMAIN,access.mypikpak.com
 DOMAIN,api-drive.mypikpak.com
 DOMAIN,api-drive.mypikpak.net
 DOMAIN,user.mypikpak.com
+IP-CIDR,119.29.29.29/32
