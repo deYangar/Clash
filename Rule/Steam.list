@@ -28,6 +28,6 @@ DOMAIN-SUFFIX,steamusercontent-a.akamaihd.net
 DOMAIN-SUFFIX,steamuserimages-a.akamaihd.net
 DOMAIN-SUFFIX,steamvideo-a.akamaihd.net
 DOMAIN-SUFFIX,valvesoftware.com
-DOMAIN-KEYWORD,steambroadcast
-DOMAIN-KEYWORD,steamstore
-DOMAIN-KEYWORD,steamuserimages
+#DOMAIN-KEYWORD,steambroadcast
+#DOMAIN-KEYWORD,steamstore
+#DOMAIN-KEYWORD,steamuserimages
