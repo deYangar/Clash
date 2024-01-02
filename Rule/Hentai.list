@@ -3,6 +3,7 @@ DOMAIN,exhentai.org
 DOMAIN,forums.e-hentai.org
 DOMAIN,s.exhentai.org
 DOMAIN,kyokusai.moe
+DOMAIN,picacomic.com
 DOMAIN-SUFFIX,hath.network
 DOMAIN-SUFFIX,nhentai.net
 DOMAIN-SUFFIX,nhentai.xxx
@@ -11,3 +12,4 @@ DOMAIN-KEYWORD,exhentai
 DOMAIN-KEYWORD,nhentai
 DOMAIN-KEYWORD,e-hentai
 DOMAIN-KEYWORD,hentai
+DOMAIN-KEYWORD,picacomic
