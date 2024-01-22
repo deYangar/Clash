@@ -1,0 +1,7 @@
+DOMAIN,api-jooxtt.sanook.com
+DOMAIN,jooxweb-api.tencent.co.th
+DOMAIN-SUFFIX,joox.com
+DOMAIN-SUFFIX,i-joox.com
+IP-CIDR,119.28.183.94/32,no-resolve
+IP-CIDR,203.205.234.136/32,no-resolve
+PROCESS-NAME,com.tencent.ibg.joox
