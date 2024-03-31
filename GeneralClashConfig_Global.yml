@@ -73,7 +73,6 @@ dns:
      - localhost.ptlogin2.qq.com
   nameserver:
      - https://1.1.1.1/dns-query
-     - https://doh.pub/dns-query
   fallback:
      - tls://dns.google
   fallback-filter:
@@ -122,7 +121,7 @@ dns:
 # Clash for Windows
 # Proxies module latency test settings
 cfw-latency-timeout: 3000
-cfw-latency-url: http://www.gstatic.com/generate_204
+cfw-latency-url: http://1.1.1.1/generate_204
 
 # 混合配置（mixin）
 # 支持向所有配置文件中注入公共属性设置
