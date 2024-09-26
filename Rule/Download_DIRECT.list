@@ -16,3 +16,5 @@ PROCESS-NAME,Weiyun.exe
 PROCESS-NAME,baidunetdisk.exe
 # Mihomo
 PROCESS-NAME,mihomo-alpha.exe
+
+PROCESS-NAME,qbittorrent.exe
