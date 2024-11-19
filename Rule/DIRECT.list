@@ -12,3 +12,6 @@ DOMAIN-SUFFIX,greenmangaming.com
 
 DOMAIN-SUFFIX,suo.yt
 DOMAIN-SUFFIX,nexconvert.com
+
+PROCESS-NAME,ToDesk.exe
+PROCESS-NAME,SunloginClient.exe
