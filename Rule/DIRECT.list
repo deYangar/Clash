@@ -15,5 +15,3 @@ DOMAIN-SUFFIX,nexconvert.com
 
 PROCESS-NAME,ToDesk.exe
 PROCESS-NAME,SunloginClient.exe
-
-DOMAIN-KEYWORD,-plus.net,DIRECT
