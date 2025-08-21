@@ -15,6 +15,6 @@ DOMAIN-SUFFIX,nexconvert.com
 
 PROCESS-NAME,ToDesk.exe
 PROCESS-NAME,SunloginClient.exe
-
+PROCESS-NAME,xray.exe
 #针对mihoyo启动器，如果后续出现误判，就删掉
 PROCESS-NAME,launcher.exe
