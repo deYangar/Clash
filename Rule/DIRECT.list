@@ -19,7 +19,7 @@ PROCESS-NAME,xray.exe
 PROCESS-NAME,SchneiderUPSMonitor.exe
 
 #steam下载
-DOMAIN,steamcdn-a.akamaihd.net,DIRECT
-DOMAIN-SUFFIX,cm.steampowered.com,DIRECT
-DOMAIN-SUFFIX,steamserve.net,DIRECT
-DOMAIN-SUFFIX,steamcontent.com,DIRECT
+DOMAIN,steamcdn-a.akamaihd.net
+DOMAIN-SUFFIX,cm.steampowered.com
+DOMAIN-SUFFIX,steamserve.net
+DOMAIN-SUFFIX,steamcontent.com
