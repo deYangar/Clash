@@ -19,8 +19,8 @@ PROCESS-NAME,xray.exe
 PROCESS-NAME,SchneiderUPSMonitor.exe
 
 #steam下载
-#DOMAIN-SUFFIX,cm.steampowered.com
-#DOMAIN-SUFFIX,steamserve.net
+DOMAIN-SUFFIX,cm.steampowered.com
+DOMAIN-SUFFIX,steamserve.net
 DOMAIN-SUFFIX,steamcontent.com
 DOMAIN,steam.eca.qtlglb.com
 DOMAIN,steam.naeu.qtlglb.com
