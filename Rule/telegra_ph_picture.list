@@ -1,1 +1,1 @@
-DOMAIN-SUFFIX,pic.aria2c.fun
+DOMAIN-SUFFIX,^pic\.[^.]+\.xyz$
