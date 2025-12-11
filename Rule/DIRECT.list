@@ -9,14 +9,16 @@ DOMAIN-SUFFIX,mypikpak.net
 
 DOMAIN-SUFFIX,greenmandigital.cn
 DOMAIN-SUFFIX,greenmangaming.com
-
-DOMAIN-SUFFIX,suo.yt
-DOMAIN-SUFFIX,nexconvert.com
-
 PROCESS-NAME,ToDesk.exe
 PROCESS-NAME,SunloginClient.exe
 PROCESS-NAME,xray.exe
 PROCESS-NAME,SchneiderUPSMonitor.exe
+
+#TAG订阅地址
+DOMAIN,rama991.siamparagon.org
+DOMAIN,link01.nobodys.uk
+DOMAIN,huaikhwang.central-world.org
+DOMAIN,villa.parkson-market.org
 
 #steam下载
 #DOMAIN-SUFFIX,cm.steampowered.com
