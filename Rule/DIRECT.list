@@ -13,6 +13,7 @@ PROCESS-NAME,ToDesk.exe
 PROCESS-NAME,SunloginClient.exe
 PROCESS-NAME,xray.exe
 PROCESS-NAME,SchneiderUPSMonitor.exe
+DOMAIN-SUFFIX,yang-nas.com
 
 #TAG订阅地址
 DOMAIN,rama991.siamparagon.org
@@ -24,7 +25,7 @@ DOMAIN,wd-purple.com
 #steam下载
 #DOMAIN-SUFFIX,cm.steampowered.com
 #DOMAIN-SUFFIX,steamserve.net
-DOMAIN-SUFFIX,steamcontent.com
+#DOMAIN-SUFFIX,steamcontent.com
 #steam国内下载CDN
 DOMAIN,st.dl.eccdnx.com
 DOMAIN,st.dl.bscstorage.net
