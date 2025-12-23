@@ -1,1 +1,1 @@
-DOMAIN-SUFFIX,^pic\.[^.]+\.xyz$
+DOMAIN-REGEX,^pic\.[^.]+\.xyz$
