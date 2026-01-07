@@ -1,1 +1,3 @@
+#Clash系规则
 DOMAIN-REGEX,^pic\.[^.]+\.xyz$
+PROCESS-NAME,Telegram.exe
