@@ -14,7 +14,7 @@ PROCESS-NAME,SunloginClient.exe
 PROCESS-NAME,xray.exe
 PROCESS-NAME,SchneiderUPSMonitor.exe
 DOMAIN-SUFFIX,yang-nas.com
-
+DOMAIN-SUFFIX,mycloudnas.com
 #TAG订阅地址
 DOMAIN,rama991.siamparagon.org
 DOMAIN,link01.nobodys.uk
