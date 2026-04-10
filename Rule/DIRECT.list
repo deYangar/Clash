@@ -13,6 +13,7 @@ PROCESS-NAME,ToDesk.exe
 PROCESS-NAME,SunloginClient.exe
 PROCESS-NAME,xray.exe
 PROCESS-NAME,SchneiderUPSMonitor.exe
+PROCESS-NAME,Client-Win64-Shipping.exe
 DOMAIN-SUFFIX,yang-nas.com
 DOMAIN-SUFFIX,mycloudnas.com
 #TAG订阅地址
