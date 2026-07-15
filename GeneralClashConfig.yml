@@ -1,0 +1,266 @@
+#---------------------------------------------------#
+#  mihomo/MetaCube 配置 - deYangar/Clash 适配版
+#
+#  适配 mihomo/MetaCube 内核
+#  参考文档：
+#    - https://wiki.metacubex.one/config/
+#    - https://github.com/MetaCubeX/mihomo/blob/Meta/docs/config.yaml
+#
+#  变更说明（对比旧版 GeneralClashConfig.yml）：
+#  1. 移除所有纯 CFW GUI 专属字段
+#  2. DNS 结构全面重构（enhanced-mode / default-nameserver / nameserver-policy）
+#  3. fake-ip-filter 改用 geosite / RULE-SET 新型语法
+#  4. fallback-filter 格式更新，新增 domain 字段
+#  5. profile section 重构
+#  6. 新增 geox-url / skip-auth-prefixes / lan-allowed-ips 等新字段
+#  7. find-process-mode 保留（mihomo 原生支持）
+#  8. cfw-bypass IP 段迁移为 tun route-exclude-address（TUN 默认关闭）
+#  9. cfw-latency-url/timeout 由 subconverter 内嵌到各 proxy_group
+#  10. experimental.ignore-resolve-fail 在 mihomo 中已废弃
+#  11. experimental 区块更新为 mihomo 当前支持的选项
+#  12. TUN/嗅探 配置启用但 TUN 默认关闭
+#  13. 删除 tunnels 及无替代 CFW 字段
+#---------------------------------------------------#
+
+# 入站端口
+mixed-port: 7890
+socks-port: 7891
+# redir-port: 7892
+# tproxy-port: 7893
+
+# 局域网
+allow-lan: true
+bind-address: "*"
+lan-allowed-ips:
+  - 0.0.0.0/0
+  - ::/0
+# lan-disallowed-ips:
+#   - 192.168.0.3/32
+skip-auth-prefixes:
+  - 127.0.0.1/8
+  - ::1/128
+# authentication:
+#   - "user1:pass1"
+
+# 进程匹配
+find-process-mode: strict
+#   always  - 强制匹配所有进程
+#   strict  - 默认，由 mihomo 自动判断是否匹配
+#   off     - 关闭，推荐路由器使用
+
+# 运行模式
+mode: rule
+log-level: info
+ipv6: true
+
+# GEO 数据库
+geox-url:
+  geoip: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geoip.dat"
+  geosite: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geosite.dat"
+  mmdb: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geoip.metadb"
+geo-auto-update: false
+geo-update-interval: 24
+geodata-loader: memconservative
+
+# 外部控制 & UI
+external-controller: 127.0.0.1:9090
+# secret: "your-secret-here"
+external-controller-cors:
+  allow-origins:
+    - "*"
+  allow-private-network: true
+# Web UI 目录（需配合 external-ui-url 自动下载）
+# external-ui: dashboard
+# Web UI 自动下载地址（首次访问 API/ui 时自动拉取并解压）
+# zashboard 在线地址：http://board.zash.run.place
+external-ui-url: "https://github.com/Zephyruso/zashboard/releases/latest/download/dist.zip"
+
+# profile 持久化
+profile:
+  store-selected: true
+  store-fake-ip: true
+
+# TLS 配置（仅 API HTTPS 需要时启用）
+# tls:
+#   certificate: /path/to/cert.pem
+#   private-key: /path/to/key.pem
+#   ech-key: |-
+#     -----BEGIN ECH KEYS-----
+#     ...
+#     -----END ECH KEYS-----
+
+# experimental（mihomo 当前支持的实验性选项）
+experimental:
+  # quic-go-disable-gso: false
+  # quic-go-disable-ecn: false
+  # dialer-ip4p-convert: false
+
+# DNS 配置
+dns:
+  enable: true
+  listen: 0.0.0.0:53
+  ipv6: false
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+
+  fake-ip-filter:
+    - "*.lan"
+    - "*.local"
+    - "localhost.ptlogin2.qq.com"
+    - "+.music.126.net"
+    # geosite 写法（需确保 geosite 库中存在该分类）
+    # - geosite:fakeip-filter
+    # 规则集写法（behavior 必须为 domain/classical）
+    # - rule-set:fakeip-filter
+
+  # fake-ip-filter 匹配模式：blacklist（默认）/ whitelist / rule
+  # fake-ip-filter-mode: blacklist
+  fake-ip-ttl: 1
+
+  # default-nameserver：仅用于解析 nameserver / fallback 中的 DNS 域名
+  default-nameserver:
+    - 114.114.114.114
+    - 223.5.5.5
+    - tls://1.12.12.12:853
+    - tls://223.5.5.5:853
+    - system
+
+  # nameserver：主要查询 DNS，用于直连流量的域名解析
+  nameserver:
+    - https://dns.alidns.com/dns-query
+    - https://doh.pub/dns-query
+    - tls://dns.google:853
+    - https://1.1.1.1/dns-query
+    - https://101.101.101.101/dns-query
+    - https://dns.adguard.com/dns-query
+
+  # fallback：nameserver 返回境外 IP 时启用
+  fallback:
+    - tls://dns.google:853
+    - https://1.1.1.1/dns-query
+    - https://dns.adguard.com/dns-query
+
+  fallback-filter:
+    geoip: true
+    ipcidr:
+      - 240.0.0.0/4
+      - 0.0.0.0/32
+      - 127.0.0.1/32
+    # domain 字段（mihomo 新增，强制特定域名走 fallback）
+    domain:
+      - "+.google.com"
+      - "+.facebook.com"
+      - "+.youtube.com"
+
+  # nameserver-policy：域名到 DNS 的精确映射
+  nameserver-policy:
+    # 苹果 / 国内服务 / 私有地址，走国内 DoH 避免污染
+    "geosite:cn,private,apple":
+      - https://doh.pub/dns-query
+      - https://dns.alidns.com/dns-query
+    # 广告域名走 rcode://success
+    # 原理：返回"DNS 查询成功（但无结果）"，广告域名无法解析 → 广告被屏蔽
+    # 这是 DNS 层的广告拦截，与 ruleset 中的规则互补，两者可同时生效
+    "geosite:category-ads-all":
+      - rcode://success
+
+# hosts（域名重定向，fake-ip 模式下不生效）
+# hosts:
+#   '*.clash.dev': 127.0.0.1
+#   'alpha.clash.dev': '::1'
+#   'test.com': [1.1.1.1, 2.2.2.2]
+#   'baidu.com': google.com
+
+# 域名嗅探
+# 原理：通过 TLS SNI / HTTP Host 字段识别流量所属域名，实现精准规则匹配
+# 场景：某些域名无法被 DNS 劫持（如 DoH 直连域名），此时需要嗅探来识别流量
+sniffer:
+  enable: true
+  force-dns-mapping: true   # 对 redir-host 类型识别的流量强制嗅探
+  parse-pure-ip: true      # 对未获取到域名的流量强制嗅探
+  override-destination: false  # 不用嗅探结果替代原目标，避免误判
+  sniff:
+    HTTP:
+      ports: [80, 8080-8880]
+      override-destination: true
+    TLS:
+      ports: [443, 8443]
+    QUIC:
+      ports: [443, 8443]
+  # 强制嗅探这些域名（即使已在 fake-ip-filter 中也强制嗅探）
+  # force-domain:
+  #   - +.v2ex.com
+  # 跳过嗅探这些域名
+  # skip-domain:
+  #   - Mijia Cloud
+  # skip-src-address:
+  #   - 192.168.0.3/32
+  # skip-dst-address:
+  #   - 192.168.0.3/32
+
+  # TUN 模式
+  # 注意：enable 为 false，默认关闭，需要时手动改为 true
+  #
+  # IP 段排除（route-exclude-address）对应原始 cfw-bypass 中的 IP 段，
+  # 这些 IP 段不经过 TUN，直接直连，避免代理国内流量。
+  #
+  # 国内域名直连（*.bilibili.com / *.baidu.com 等）
+  # → 由 subconverter INI 配置中的 ruleset DIRECT 规则处理（不在此处处理）
+  tun:
+    enable: false
+    stack: system          # system（推荐）/ gvisor / mixed
+    auto-route: true       # 自动配置路由表（Linux/macOS 路由器必备）
+    auto-detect-interface: true
+    dns-hijack:
+      - any:53
+      - tcp://any:53
+
+    # 严格路由，防止 DNS 泄露，Android 必备
+    strict-route: true
+
+    # 原始 cfw-bypass / cfw-bypass-bak 中的 IP 段（转换为 CIDR 格式）
+    route-exclude-address:
+      # localhost / 环回地址
+      - 127.0.0.0/8
+
+      # 内网 A 类
+      - 10.0.0.0/8
+
+      # 内网 B 类（172.16 - 172.31 整段，用 /12 合并）
+      - 172.16.0.0/12
+
+      # 内网 C 类
+      - 192.168.0.0/16
+
+      # 链路本地地址
+      - fe80::/10
+
+      # IPv6 唯一本地地址
+      - fc00::/7
+
+      # 组播地址
+      - 224.0.0.0/4
+
+      # 保留地址（被污染 IP 段）
+      - 240.0.0.0/4
+
+    # MTU（一般默认即可）
+    # mtu: 9000
+
+    # UDP NAT 过期时间（秒）
+    # udp-timeout: 300
+
+    # Android 应用级 bypass（需要 auto-route）
+    # include-android-user:
+    #   - 0      # 机主
+    # exclude-package:           # 排除这些应用，不走 TUN
+    #   - com.android.captiveportallogin   # 强制门户登录（必须排除）
+
+    # include-package:            # 仅这些应用走 TUN（与 exclude-package 互斥）
+    #   - com.android.chrome
+
+    # 接口限制（与 auto-detect-interface 互斥）
+    # include-interface:
+    #   - eth0
+    # exclude-interface:
+    #   - eth1

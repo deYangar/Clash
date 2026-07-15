@@ -1,0 +1,16 @@
+DOMAIN,disney.my.sentry.io
+DOMAIN-SUFFIX,bamgrid.com
+DOMAIN-SUFFIX,disneystreaming.com
+DOMAIN-SUFFIX,dssott.com
+DOMAIN-SUFFIX,disney-plus.net
+DOMAIN-SUFFIX,disneyplus.bn5x.net
+DOMAIN-SUFFIX,disneyplus.com
+DOMAIN-SUFFIX,disneyplus.com.ssl.sc.omtrdc.net
+DOMAIN-SUFFIX,hotstar-cdn.net
+DOMAIN-SUFFIX,hotstar-labs.com
+DOMAIN-SUFFIX,hotstar.com
+DOMAIN-SUFFIX,hotstarext.com
+DOMAIN-SUFFIX,starplus.com
+DOMAIN-SUFFIX,starott.com
+# DOMAIN-SUFFIX,media.dssott.com //流媒体串流
+PROCESS-NAME,com.disney.disneyplus
