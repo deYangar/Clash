@@ -1,3 +1,22 @@
-ss://YWVzLTI1Ni1nY206cGFzc3dvcmQxMjM=@1.2.3.4:8388#5rWL6K+V6IqC54K5MQ==
-vmess://eyJhZGQiOiAiNS42LjcuOCIsICJwb3J0IjogIjQ0MyIsICJpZCI6ICIxMjM0NTY3OC1hYmNkLWVmZ2gtaWprbC1tbm9wcXJzdHV2IiwgIm5ldCI6ICJ3cyIsICJwcyI6ICLmtYvor5XoioLngrkyIiwgInRscyI6ICJ0bHMiLCAidHlwZSI6ICJub25lIn0=
-trojan://password123@9.10.11.12:443?security=tls#5rWL6K+V6IqC54K5Mw==
+proxies:
+  - name: "测试节点1"
+    type: ss
+    server: 1.2.3.4
+    port: 8388
+    cipher: aes-256-gcm
+    password: password123
+  - name: "测试节点2"
+    type: vmess
+    server: 5.6.7.8
+    port: 443
+    uuid: 12345678-abcd-efgh-ijkl-mnopqrstuv
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+  - name: "测试节点3"
+    type: trojan
+    server: 9.10.11.12
+    port: 443
+    password: password123
+    sni: example.com
