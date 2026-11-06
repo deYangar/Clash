@@ -17,10 +17,12 @@ PROCESS-NAME,Client-Win64-Shipping.exe
 DOMAIN-SUFFIX,yang-nas.com
 DOMAIN-SUFFIX,mycloudnas.com
 #TAG订阅地址
+DOMAIN-SUFFIX,huaikhwang.central-world.org
+DOMAIN-SUFFIX,ratchada.terminal69.win
+DOMAIN-SUFFIX,sakamoto.terminal69.win
+DOMAIN-SUFFIX,applications.temporary-subscription.work
 DOMAIN-SUFFIX,rama991.siamparagon.org
 DOMAIN-SUFFIX,link01.nobodys.uk
-DOMAIN-SUFFIX,huaikhwang.central-world.org
-DOMAIN-SUFFIX,villa.parkson-market.org
 #西数订阅地址
 DOMAIN,wd-purple.com
 #MESL订阅地址
